@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2019-10-07-22-46-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	set[enum]	interval	bool	string	string	string	double	double
+1561049960.968228	-	-	-	-	-	-	-	-	-	DoS::AppleRDPListener	APPL RDP 3283/udp Listener Seen: [orig_h=76.103.238.248, orig_p=3283/udp, resp_h=128.3.124.59, resp_p=3283/udp], [size=9008, state=1, num_pkts=111, num_bytes_ip=12116, flow_label=0, l2_addr=00:d0:f6:f4:15:2b], [size=18321, state=1, num_pkts=117, num_bytes_ip=21597, flow_label=0, l2_addr=a8:d0:e5:e1:a9:52], 1561047843.233615, 2117.734613, Dd, CHhAvVGS1DHFjwGM9	-	128.3.124.59	-	-	-	-	Notice::ACTION_EMAIL,Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2019-10-07-22-46-19

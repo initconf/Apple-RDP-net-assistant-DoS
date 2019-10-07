@@ -1,0 +1,6 @@
+[package]
+description=udp-3283-DoS
+script_dir = scripts
+version = 0.1 
+tags = net_listerner, Apple RDP, udp DoS
+test_command = ( cd tests && btest -d )
